@@ -16,7 +16,7 @@ resource "aws_instance" "app" {
   instance_type = var.instance_type
 
   tags = {
-  Name        = "jenkins-terraform-server_for the change"
+  Name        = "jenkins-terraform-server"
   Environment = "dev"
 }
 }
